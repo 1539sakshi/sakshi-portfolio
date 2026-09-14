@@ -11,12 +11,11 @@ import {
   GitHubIcon,
   LinkedInIcon,
   ResumeIcon,
-} from "@/components/sites/www-pranjalthange-xyz-b72ca33d/shared/icons";
+} from "@/components/sites/sakshi-portfolio/shared/icons";
 
-const IMAGE_BASE =
-  "/sites/www-pranjalthange-xyz-b72ca33d/root-8a5edab2/images";
-const RESUME_URL =
-  "/sites/www-pranjalthange-xyz-b72ca33d/root-8a5edab2/Sakshi_Singh_Resume.pdf";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const IMAGE_BASE = `${BASE_PATH}/sites/sakshi-portfolio/root/images`;
+const RESUME_URL = `${BASE_PATH}/sites/sakshi-portfolio/root/Sakshi_Singh_Resume.pdf`;
 
 type NavLink = { href: string; label: string };
 

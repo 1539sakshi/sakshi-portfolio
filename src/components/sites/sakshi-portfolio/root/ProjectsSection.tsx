@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import type { CSSProperties, JSX } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ProjectCursor } from "@/components/sites/www-pranjalthange-xyz-b72ca33d/shared/ProjectCursor";
+import { ProjectCursor } from "@/components/sites/sakshi-portfolio/shared/ProjectCursor";
 
 interface Project {
   index: string;

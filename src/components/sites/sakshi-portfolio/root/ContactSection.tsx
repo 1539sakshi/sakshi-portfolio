@@ -1,11 +1,11 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { SlantReveal } from "@/components/sites/www-pranjalthange-xyz-b72ca33d/shared/SlantReveal";
+import { SlantReveal } from "@/components/sites/sakshi-portfolio/shared/SlantReveal";
 import {
   GitHubIcon,
   LinkedInIcon,
-} from "@/components/sites/www-pranjalthange-xyz-b72ca33d/shared/icons";
+} from "@/components/sites/sakshi-portfolio/shared/icons";
 
 const CREAM = "#EFEBE3";
 const EMAIL = "1539sakshi@gmail.com";

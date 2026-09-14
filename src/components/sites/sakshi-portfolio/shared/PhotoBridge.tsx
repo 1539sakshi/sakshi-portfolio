@@ -4,8 +4,8 @@ import { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const PHOTO_SRC =
-  "/sites/www-pranjalthange-xyz-b72ca33d/root-8a5edab2/images/portrait.jpg";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const PHOTO_SRC = `${BASE_PATH}/sites/sakshi-portfolio/root/images/portrait.jpg`;
 
 const lerp = (a: number, b: number, t: number): number => a + (b - a) * t;
 
