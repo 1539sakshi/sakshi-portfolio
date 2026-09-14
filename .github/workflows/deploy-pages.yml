@@ -33,6 +33,7 @@ jobs:
       - name: Build static site
         env:
           GITHUB_ACTIONS: "true"
+          NEXT_PUBLIC_BASE_PATH: "/sakshi-portfolio"
         run: npm run build
 
       - name: Upload Pages artifact
